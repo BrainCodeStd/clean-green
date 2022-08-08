@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  height: 2000px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -170,11 +170,18 @@ body {
   border-radius: 10px;
   border: none;
   box-shadow: var(--shadow);
+  height: 176px;
+}
+.entree-portion-main .ep1 .crd-img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  height: 176px !important;
 }
 .entree-portion-main .ep1 .card-title {
   font-size: inherit;
   margin-bottom: auto;
   font-weight: 700;
+  font-size: 12px !important;
 }
 .entree-portion-main .ep1 .card-text {
   padding-top: 0px;
