@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- scss links -->
+<link rel="stylesheet" href="/first-page/first.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- icons links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+
+    <div class="container-fluid w-100 border"id="nav-top" style="background-color: white;" >
+      <div class="container stop">
+        <div class="row top-logo-side">
+          <div class="col-lg-5 column">
+            <div class="d-flex align-item-center c1 ">
+     <ul class="d-flex align-items-center">
+      <li><h4 title="Current menu">Current menu</h4></li>
+      <li>      <div class="dropdown">
+        <a class="drop"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          Shop <i class="bi bi-chevron-down fw-bold"></i>
+        </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li title="Subscription Meal Selection"><a class="" href="#" >Subscription Meal Selection</a></li>
+          <li title="À la Carte"><a class="" href="#" >À la Carte</a></li>
+          <li title="Proteins by the Pound"><a class="" href="#" >Proteins by the Pound</a></li>
+          <li title="Custom Meal Builder"><a class="" href="#" >Custom Meal Builder</a></li>
+          <li title="Extras"><a class="" href="#" >Estras</a></li>
+          <li  title="Gift card"><a class="" href="#">Gift card</a></li>
+
+
+        </ul>
+      </div></li>
+     </ul>
+
+    </div>
+          </div>
+          <div class="col-lg-2 d-flex align-items-center justify-content-end img">
+            <img src="/first-page-images/logo-img.png" alt="" width="76px" height="auto">
+          </div>
+          <div class="col-lg-5 d-flex  justify-content-end align-items-center c3">
+      <ul class="d-flex ">
+        <li class="remove-400">Go&Grab</li>
+        <li class="remove-400">Blog</li>
+        <li><i class="bi bi-bag"></i></li>
+        <li>Sign up</li>
+        <li>Login</li>
+      </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+
+    <!-- august start -->
+    <div class="container-fluid second-fluid  " >  
+      <div class="row augst pb-5 pt-2">
+        <div class="col">
+          <h1>Our menu for Aug 4,2022</h1>
+        </div>
+      </div>
+  <div class="row">
+  <div class="col sun-17">
+    <h3>August 2022</h3>
+    <button class="active" id="btn-1">
+      Sun <br><span> 14</span>
+    </button>
+    <button id="btn-hover">
+      Wed <br> <span>17</span>
+    </button>
+  </div>
+  </div>
+    </div>
+ <!-- section fixed 2nd top -->
+    <section class="container entree " id="entre">
+      <h5 class="active2" id="click1">Entree</h5>
+      <h5 id="click2">Breakfast</h5>
+    </section>
+
+<!-- entree portion start -->
+
+<section class="conatiner-fluid">
+<div class="container entree-portion-main">
+  <div class="row entree-portion">
+    <div class="col"><h2>Entree</h2></div>
+  </div>
+  <div class="row ep1">
+    <div class="col-lg-4">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/first-page-images/bcrd1.jpg" class="img-fluid w-100 h-100 rounded-start" alt="..." >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Balsamic Chicken Salad (16 oz</h5>
+              <p class="card-text"> gluten free, dairy free, nut free</p>
+                      <p class="d-flex justify-content-between shoping">
+                        <a href="" class="s960">960 <span>calories</span>
+                        </a> <a href="#" class="shoping-icon" ><i class="bi  bi-cart-fill"></i></a>
+                      </p>
+                 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4"></div>
+  </div>
+</div>
+</section>
+    <script>
+      // top nav logo fixed
+     let nav=document.getElementById("nav-top");
+//      window.addEventListener('scroll',function(){
+
+//       if (pageYOffset>=7){
+//       console.log("basit")
+
+//       nav.classList.add("main-page")
+//     }
+//     else
+//       nav.classList.remove("main-page");
+//     }
+//      )
+// // //  btn hover 
+     let btn2=document.getElementById("btn-hover");
+     let btn1=document.getElementById("btn-1");
+     btn2.addEventListener('click',function(){
+      if(btn2){
+      btn2.classList.add("active");
+     btn1.classList.remove("active");
+
+      }
+     })
+
+     btn1.addEventListener('click',function(){
+      if(btn2){
+      btn1.classList.add("active");
+     btn2.classList.remove("active");
+
+      }
+     })
+   
+  //  breakfast
+  let brakfast=document.getElementById("click2");
+  let entree=document.getElementById("click1")
+  brakfast.addEventListener('click',function(){
+    if(brakfast){
+          entree.classList.remove("active2")
+      brakfast.classList.add("active2")
+
+    }
+  }
+     
+  )
+  entree.addEventListener('click',function(){
+    if(entree){
+          entree.classList.add("active2")
+      brakfast.classList.remove("active2")
+
+    }
+  }
+     
+  )
+  // pageyoffset fixed breakfast
+  let entr=document.getElementById("entre");
+
+// window.addEventListener('scroll',function(){
+//   if (window.pageYOffset>=223){
+//     console.log("harami hjo ja  na")
+//     entr.classList.add("fixed-page");
+
+//   }else{
+//     entr.classList.remove("fixed-page");
+//   }
+// })
+
+  
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
