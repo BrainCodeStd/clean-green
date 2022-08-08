@@ -152,10 +152,12 @@ body {
   padding-bottom: 32px;
   padding-top: 20px;
 }
-.entree h5 {
+.entree h5 a {
   cursor: pointer;
   padding: 0px 20px;
   font-weight: 400;
+  text-decoration: none;
+  color: #707070;
 }
 .entree .active2 {
   color: var(--comon-color);
@@ -207,6 +209,111 @@ body {
 .entree-portion-main .ep1 .card-body .shoping .s960 span {
   color: #707070;
   font-weight: 200;
+}
+
+.breakfast .col {
+  margin-bottom: 16px;
+}
+.breakfast .ep1 .card {
+  padding: 0%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: var(--shadow);
+  height: 176px;
+}
+.breakfast .ep1 .crd-img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  height: 176px !important;
+}
+.breakfast .ep1 .card-title {
+  font-size: inherit;
+  margin-bottom: auto;
+  font-weight: 700;
+  font-size: 12px !important;
+}
+.breakfast .ep1 .card-text {
+  padding-top: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  color: #707070;
+}
+.breakfast .ep1 .card-body .shoping-icon {
+  color: var(--white-color);
+  border-radius: 7px !important;
+  padding: 5px 17px !important;
+  background-color: #8ed444 !important;
+}
+.breakfast .ep1 .card-body .shoping-icon:hover {
+  box-shadow: 0 2px 7px 4px rgba(120, 137, 149, 0.25);
+}
+.breakfast .ep1 .card-body .shoping .s960 {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.breakfast .ep1 .card-body .shoping .s960 span {
+  color: #707070;
+  font-weight: 200;
+}
+
+.last-part {
+  margin-top: 117px;
+}
+.last-part .creation-side .r1 h2 {
+  color: var();
+}
+.last-part .creation-side .r2 a {
+  text-decoration: none;
+}
+.last-part .creation-side .r2 a:hover {
+  color: var(--comon-color);
+}
+.last-part .creation-side .r3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.last-part .creation-side .r3 a {
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: blue;
+  border-radius: 20px;
+  color: var(--white-color);
+}
+.last-part .creation-side .r4 {
+  margin-top: 50px;
+}
+.last-part .creation-side .r4 a {
+  text-decoration: none;
+  padding: 9px 12px;
+  border-radius: 50px;
+  background-color: blue;
+}
+.last-part .creation-side .r4 a i {
+  color: black;
+}
+.last-part .creation-mid .r1 {
+  margin-bottom: 15px !important;
+}
+.last-part .creation-mid .r2 ul {
+  padding-left: 0% !important;
+}
+.last-part .creation-mid .r2 ul li {
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.last-part .meal-odering .r1 {
+  margin-bottom: 15px !important;
+}
+.last-part .meal-odering .r2 ul {
+  padding-left: 0% !important;
+}
+.last-part .meal-odering .r2 ul li {
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 @media (max-width: 1001px) {
