@@ -177,9 +177,13 @@ border-bottom: 1px solid $border-color-1;
 padding-bottom: 32px;
     padding-top: 20px;
 h5{
+   a{
     cursor: pointer;
     padding:0px 20px;
     font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+   }
 }
 .active2{
     color: var(--comon-color);
@@ -249,6 +253,152 @@ padding-top: 0px;
     }
 }
 }
+    }
+}
+
+//  brakfast portion cards :start
+.breakfast{
+
+      .col{
+        margin-bottom: 16px;
+
+      }
+    .ep1{
+        .card{
+            padding: 0%;
+            border-radius: 10px;
+            border: none;
+            box-shadow: var(--shadow);
+            height: 176px;
+        }
+
+        .crd-img{
+            object-fit: cover !important;
+            height: 176px !important;
+        }
+        
+.card-title {
+    font-size: inherit;
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 12px !important;
+}
+.card-text{
+padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: #707070;
+}
+.card-body
+{
+    .shoping-icon{
+         color: var(--white-color);
+        border-radius: 7px !important;
+        padding: 5px 17px !important;
+        background-color: #8ed444 !important;
+       
+    }
+    .shoping-icon:hover{
+        box-shadow: 0 2px 7px 4px rgba(120, 137, 149, 0.25);
+}
+
+.shoping{
+    .s960{
+     text-decoration: none;
+     color: black;
+     font-weight: 400;
+     span{
+        color: #707070;
+        font-weight: 200;
+     }
+    }
+}
+}
+    }
+}
+
+
+// last portion :start
+
+
+.last-part{
+    margin-top: 117px;
+
+    .creation-side{
+        .r1{
+            h2{
+                color: var();
+            }
+        }
+        .r2{
+
+            a{
+                text-decoration: none;
+
+            }
+            a:hover{
+                color: var(--comon-color);
+            }
+        }
+        .r3{
+            margin-top: 60px;
+            margin-bottom: 20px;
+            a{
+                text-decoration: none;
+                padding: 10px 10px;
+                background-color: blue;
+                border-radius: 20px;
+                color: var(--white-color);
+            }
+        }
+        .r4{
+            margin-top: 50px;
+            a{
+                text-decoration: none;
+                padding: 9px 12px;
+                border-radius: 50px;
+                background-color:blue;
+                i{
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .creation-mid{
+        
+        .r1{
+            margin-bottom: 15px !important;
+        }
+        .r2{
+            ul{
+                padding-left: 0% !important;
+                li{
+                    cursor: pointer;
+                    font-weight: 800;
+                    margin-top: 10px;
+
+                }
+            }
+        }
+    }
+
+    .meal-odering{
+        .r1{
+            margin-bottom: 15px !important;
+        }
+        .r2{
+            ul{
+                padding-left: 0% !important;
+                li{
+                    cursor: pointer;
+                    font-weight: 800;
+                    margin-top: 10px;
+
+                }
+            }
+        }
     }
 }
 
