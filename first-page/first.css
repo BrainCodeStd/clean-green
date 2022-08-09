@@ -10,8 +10,47 @@ html {
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 100%;
+}
+
+.right-fixed {
+  display: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+.right-fixed a {
+  border: 1px solid white;
+  text-align: center;
+  padding: 14px 18px;
+  background-color: #2d2d2d;
+  border-radius: 50px;
+  color: var(--white-color);
+}
+.right-fixed a i {
+  color: #CCCCCC;
+}
+
+a:hover {
+  box-shadow: var(--shadow);
+}
+
+.fixed-wraper {
+  height: 130px;
+  width: 197px;
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  transform: rotate(45deg);
+  transform-origin: left top;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
 }
 
 :root {
@@ -19,6 +58,7 @@ body {
   --white-color:white;
   --shadow:0 6px 12px rgb(0 0 0 / 18%);
   --hover-color:#66d364;
+  --shadow-btn:0 6px 12px rgba(95, 159, 248, 0.18);
 }
 
 .fixed-page {
@@ -159,6 +199,9 @@ body {
   text-decoration: none;
   color: #707070;
 }
+.entree h5 a:hover {
+  box-shadow: none;
+}
 .entree .active2 {
   color: var(--comon-color);
 }
@@ -260,11 +303,15 @@ body {
 
 .last-part {
   margin-top: 117px;
+  padding: 30px 0px;
+  background-color: #2d2d2d;
+  color: var(--white-color);
 }
 .last-part .creation-side .r1 h2 {
-  color: var();
+  color: var(--white-color);
 }
 .last-part .creation-side .r2 a {
+  color: var(--white-color);
   text-decoration: none;
 }
 .last-part .creation-side .r2 a:hover {
@@ -274,12 +321,20 @@ body {
   margin-top: 60px;
   margin-bottom: 20px;
 }
+.last-part .creation-side .r3 .c2 {
+  position: relative;
+  left: -61px;
+}
 .last-part .creation-side .r3 a {
   text-decoration: none;
   padding: 10px 10px;
-  background-color: blue;
+  background-color: var(--white-color);
   border-radius: 20px;
-  color: var(--white-color);
+  color: black;
+  transition: all 0.3s ease;
+}
+.last-part .creation-side .r3 a:hover {
+  box-shadow: var(--shadow-btn);
 }
 .last-part .creation-side .r4 {
   margin-top: 50px;
@@ -288,7 +343,7 @@ body {
   text-decoration: none;
   padding: 9px 12px;
   border-radius: 50px;
-  background-color: blue;
+  background-color: var(--white-color);
 }
 .last-part .creation-side .r4 a i {
   color: black;
@@ -301,7 +356,7 @@ body {
 }
 .last-part .creation-mid .r2 ul li {
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 10px;
 }
 .last-part .meal-odering .r1 {
@@ -312,7 +367,7 @@ body {
 }
 .last-part .meal-odering .r2 ul li {
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 10px;
 }
 
