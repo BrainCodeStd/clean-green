@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    width: 100%;
+  
+}
+// variabels
+$img-color:#404040;
+$text-white: #ffffff;
+$secon-line-bg:#ff7e30;
+$comon-color:#93d500;
+$drop-down:#efefef;
+$drop-down-border:#efefef;
+
+
+// variable finish
+.top{
+    padding: 20px 0px !important;
+ .main{
+    position: relative;
+    .logo{
+        margin-left: 4%;
+        width: fit-content;
+    }
+    
+ }
+.nav-bar-portion{
+    position: absolute;
+    top: 0;
+    width: 100%;
+#hamburger{
+    float: right;
+    position: relative;
+    left: -30px;
+    width: fit-content;
+    margin-left: auto;
+    cursor: pointer;
+    display:block;
+    span{
+        i{
+            color: black;
+            font-weight: 700;
+            font-size: 50px;
+          
+        }
+    }
+}
+
+#navbar{
+
+    display: flex;
+display:none;
+width: 100% !important;
+background-color: $drop-down;
+height: 100vh;
+position: relative;
+
+    .navbar-ul{
+                
+            text-align: center;
+                  display: flex;
+                  flex-direction: column;
+
+        li{
+            margin: auto;
+            padding: 20px 0px;
+            font-size: 16px;
+        }
+        .btn-group{
+
+            .ul{ 
+             
+
+                
+        transition: all 0.5s !important;
+            inset: 0px auto auto 0px;
+            margin: 0px;
+            transform: translate(-173px,53px)!important;
+            width: 400px !important;
+            background-color: $drop-down;
+
+
+            
+             li {
+
+    
+                      
+                        padding: 15px 0px !important;
+                        width: fit-content;
+                        cursor: pointer;
+    }
+        }
+        .shop{
+            font-size: 16px !important;
+            margin: 0px 10px !important;
+            border: none;
+            background-color: transparent;
+        }
+        .shop:focus{
+            outline: none !important;
+        }
+        .rotate-dropdown{
+            transition: all 0.5s;
+            transform: rotate(180deg);
+    
+    
+        }
+        .rotate{
+            padding: 5px 15px;
+            border: none;
+            background-color: transparent;
+    
+            span{
+            }
+        }
+        .rotate:hover{
+            border: 1px solid   black ;
+        }
+        
+        }
+        // second btn of drop nav-down:;
+    
+        #second{
+      position: relative;
+        left: 20%;
+    
+        }
+        }
+}
+
+}
+}
+
+// 2nd section :start
+.try-our{
+
+    padding: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $comon-color;
+    font-family: 'Dancing Script', cursive;
+    color:$text-white ;
+h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+     
+}
+.Hours-of{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $secon-line-bg;
+span{
+    font-size: 17px;
+    color: $text-white;
+}
+}
+
+// for pics 
+.pics-row{
+    padding-top: 20px;
+    .c1{
+        display:flex ;
+        height: 517px !important;
+        justify-content: flex-end;
+        .img{
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: $drop-down;
+            border-radius: 10px;
+            .text{
+                h2{
+                    font-size: 24px;
+                    color: $img-color;
+                }
+                p{
+                    color: $img-color;
+                    padding-top: 8px;
+                    font-size: 17px;
+                    a{
+                        color: #0d6efd;
+                        text-decoration: none;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+    .c2{
+        display:flex ;
+        height: 517px !important;
+        justify-content: flex-start;
+        .img{
+            padding: 20px;
+            background-color: $drop-down;
+            border-radius: 10px;
+            .text{
+                h2{
+                    font-size: 24px;
+                    color: $img-color;
+                }
+                p{
+                    color: $img-color;
+
+                    padding: 10px 0px;
+                    font-size: 17px;
+                    a{
+                        color: #0d6efd;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
