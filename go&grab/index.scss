@@ -6,9 +6,11 @@
 }
 body{
     width: 100%;
+    
   
 }
 // variabels
+$anker-color:#0d6efd;
 $img-color:#404040;
 $text-white: #ffffff;
 $secon-line-bg:#ff7e30;
@@ -225,6 +227,31 @@ span{
                 }
             }
 
+        }
+    }
+}
+
+// last section is completed
+.last-container{
+    margin-top: 80px;
+    .last-row{
+        padding: 25px;
+        .col-lg-3{
+            h5{
+                color: $comon-color;
+            }
+            ul{
+                width: fit-content;
+                li:hover{
+                    cursor: pointer;
+                }
+                padding: 0px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 17px;
+                color: $anker-color;
+            }
         }
     }
 }

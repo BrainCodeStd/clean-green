@@ -22,10 +22,14 @@
     <div class="container-fluid px-0 top">
            <div class="main  ">
             <div class="logo">
-                <img src="/go&grab/go&grab-pics/logo.png" alt="" class="img-fluid" width="130" height="auto">
+<a href="#">
+  <img src="/go&grab/go&grab-pics/logo.png" alt="" class="img-fluid" width="130" height="auto">
+
+</a>
+
                           </div>
                           <div class=" nav-bar-portion">
-                               <div id="hamburger"><span><i class="bi bi-list"></i></i></span></div>
+                             
   
                                <nav id="navbar" class="">
                                 <ul class=" navbar-ul">
@@ -79,12 +83,14 @@
                                     <li>Contact us</li>
                                 </ul>
                             </nav>
-                                
+                            <div id="hamburger"><span><i class="bi bi-list"></i></i></span></div>
                               </div>
                           </div>
                          
   
                         </div>
+
+                        
 <!-- first section start -->
 
       <section class="container-fluid mt-2">
@@ -147,20 +153,39 @@
                   </div>
                 </div>
               </section>
+
  <!-- last section start -->
- <section class="container-fluid">
-  <div class="row">
-    <div class="col-lg-3 col-sm-3">
-      logo
+ <section class="container-fluid last-container">
+  <div class="row last-row">
+    <div class="col-lg-3  ">
+    <img src="/go&grab/go&grab-pics/logo.png" alt=" clean creation" width="130"  height="auto" class="img-fluid mt-4" >
+     
     </div>
-    <div class="col-lg-3 col-sm-3">
-      creation
+    <div class="col-lg-3 ">
+ <h5>Clean creation</h5>
+ <ul>
+  <li>About</li>
+  <li>Go&grab</li>
+  <li>contact us</li>
+  <li>policy piracy</li>
+  <li>F.A.Q</li>
+ </ul>
     </div>
-    <div class="col-lg-3 col-sm-3">
-      Meal
+    <div class="col-lg-3 ">
+     <h5>order  Meal</h5>
+     <ul >
+      <li>Bulk menu</li>
+      <li>Meal Plan</li>
+      <li>A La Carte</li>
+      <li>Custom Meal Builder</li>
+      <li>Gift Card</li>
+      <li>Extras</li>
+     </ul>
     </div>
-    <div class="col-lg-3 col-sm-3">
-      contact us
+    <div class="col-lg-3 ">
+    <h5>  contact us</h5>
+    <a href="#">504-309-5427</a>
+    <a href="#">customerservice@cleancreations.net</a>
     </div>
   </div>
  </section>
@@ -190,6 +215,38 @@
             }
         })
     </script>
+    <script>
+      let  button1=document.getElementById("btn1");
+      let dropdown=document.getElementById("dropdown");
+      dropdown.style.display="none";
+      let  button2=document.getElementById("btn2");
+      let dropdown2=document.getElementById("dropdown2");
+      dropdown2.style.display="none";
+      button1.addEventListener('click',function(){
+         
+         
+          if (dropdown.style.display=="none") {
+          dropdown.style.display="block";
+          dropdown2.style.display="none";
+          } else{
+            dropdown.style.display="none";
+          }
+      })
+      
+      button2.addEventListener('click',function(){
+         
+         
+         if (dropdown2.style.display=="none") {
+         dropdown2.style.display="block";
+         dropdown.style.display="none";
+      
+         } else{
+           dropdown2.style.display="none";
+         }
+      })
+      
+      
+      </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
