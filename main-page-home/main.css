@@ -1,0 +1,53 @@
+#nav-top .top-logo-side .c1 .drop {
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--comon-color);
+  padding: 11px;
+  color: var(--white-color);
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+#nav-top .top-logo-side .c1 .drop:hover {
+  padding: 10px;
+}
+#nav-top .top-logo-side .c1 h4 {
+  font-size: 17px;
+  padding-right: 21px;
+  line-height: 50px;
+  color: var(--comon-color);
+}
+#nav-top .top-logo-side .c1 .dropdown-menu {
+  margin-top: 5px !important;
+  transition: all 0.2s;
+  box-shadow: var(--shadow);
+  border: white;
+  border-radius: 10px;
+  background: white;
+  padding: 10px;
+  width: 268px !important;
+}
+#nav-top .top-logo-side .c1 .dropdown-menu li {
+  width: 100%;
+  padding: 10px;
+  transition: all 0.5s;
+}
+#nav-top .top-logo-side .c1 .dropdown-menu li a {
+  color: black;
+  width: 100%;
+  text-decoration: none;
+}
+#nav-top .top-logo-side .c1 .dropdown-menu li:hover {
+  cursor: pointer;
+  border-radius: 10px !important;
+  background-color: var(--comon-color) !important;
+  box-shadow: var(--shadow);
+}
+#nav-top .top-logo-side .c3 li {
+  font-size: 16px;
+  margin: 0px 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+#nav-top .top-logo-side .c3 li:hover {
+  color: var(--hover-color);
+}/*# sourceMappingURL=main.css.map */
